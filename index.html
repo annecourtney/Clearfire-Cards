@@ -1,29 +1,72 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+
 <head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap, CSS imports -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="index.css">
+
 	<title>Cards</title>
 </head>
+
 <body>
-
-	<div>
-		<img src="img-1.jpg" alt="">
-		<h2>Feature Heading</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum pharetra elit, id euismod dui varius et. Mauris at tortor eget quam tempus fringilla.</p>
-		<a href="">Learn More</a>
+	<!-- header image -->
+	<div class="row">
+		<img class="img-fluid mx-auto mt-5 header-image" src="https://s-media-cache-ak0.pinimg.com/originals/62/b3/36/62b3363653ca2cac08ab864cf5e18064.png"
+		 alt="headerimg">
 	</div>
+	<!-- header text -->
+	<h1 class="page-title">Top-rated destinations</h1>
+	<h2 class="page-subtitle">Highly reviewed by locals and travelers worldwide</h2>
 
-	<div>
-		<img src="img-2.jpg" alt="">
-		<h2>Feature Heading</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum pharetra elit, id euismod dui varius et. Mauris at tortor eget quam tempus fringilla.</p>
-		<a href="">Leanr More</a>
-	</div>
+	<!-- flex row Card setup -->
+	<div class="container">
+		<div class="d-flex justify-content-center align-items-center">
+			<div class="row row-eq-height">
 
-	<div>
-		<img src="img-3.jpg" alt="">
-		<h2>Feature Heading</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum pharetra elit, id euismod dui varius et. Mauris at tortor eget quam tempus fringilla.</p>
-		<a href="">Learn More</a>
-	</div>
-</body>
-</html>
+				<!--   Card 1 -->
+				<!-- setting the cards to be responsive for all screen sizes, 'my-5' is setting the margin for top and bottom to 5 -->
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 my-5">
+					<div class="card">
+						<img class="card-img-top" src="img-1.jpg" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">Iceland</h5>
+							<p class="card-text">Hitting headlines, topping bucket lists, wooing nature lovers and dazzling increasing numbers of visitors – there
+								seems no end to the talents of this breathtaking northern destination.</p>
+							<a href="#" class="btn btn-primary">Learn More ></a>
+						</div>
+					</div>
+				</div>
+
+				<!--   Card 2 -->
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 my-5">
+					<div class="card">
+						<img class="card-img-top" src="img-2.jpg" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">Greenland</h5>
+							<p class="card-text">Embrace the adventurous spirit and open yourself to experiencing Greenland. Experience spontaneous encounters with
+								iconic wildlife, breathtaking landscapes, and Inuit culture.</p>
+							<a href="#" class="btn btn-primary">Learn More ></a>
+						</div>
+					</div>
+				</div>
+
+				<!--   Card 3 -->
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 my-5">
+					<div class="card">
+						<img class="card-img-top" src="img-3.jpg" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">Utah</h5>
+							<p class="card-text">Whatever Utah experience you’re after — from hiking National Parks to touring Temple Square to seeing natural waterfalls,
+								you'll be able to tailor each detail of your trip, all in one spot.</p>
+							<a href="#" class="btn btn-primary">Learn More ></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
